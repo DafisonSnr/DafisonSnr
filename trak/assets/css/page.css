@@ -1,0 +1,85 @@
+.container .vertical-line-container {
+  position: relative;
+}
+
+.container .vertical-line-container .vertical-dotted-line {
+  width: 5px;
+  height: 490px;
+  border-left: 2px dotted black;
+}
+
+.container .vertical-line-container .spot {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 420px;
+  font-size: 1.8em;
+  margin: 0px 0 0 -15px;
+}
+
+.container .vertical-line-container .spot h5 {
+  font-size: 0.6em;
+  margin: 5px 0 0 10px;
+}
+
+.container .vertical-line-container .spot p {
+  font-size: 12px;
+  margin: 5px 0 0 10px;
+}
+
+.container .vertical-line-container .spot svg {
+  color: green;
+}
+
+.container .vertical-line-container .spot .date {
+  position: absolute;
+  left: 67%;
+  text-align: right;
+  width: 100%;
+}
+
+.container .vertical-line-container .spot .date h5 {
+  color: rgba(2, 119, 2, 0.682);
+}
+
+.container .vertical-line-container .spot .date h6 {
+  color: #929090;
+}
+
+.container .vertical-line-container .spot2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 1.8em;
+  margin: -145px 0 0 -15px;
+}
+
+.container .vertical-line-container .spot2 h5 {
+  font-size: 0.6em;
+  margin: 5px 0 0 10px;
+}
+
+.container .vertical-line-container .spot2 p {
+  font-size: 12px;
+  margin: 5px 0 0 10px;
+}
+
+.container .vertical-line-container .spot2 svg {
+  color: green;
+}
+
+.container .vertical-line-container .spot2 .date {
+  position: absolute;
+  left: 45%;
+  text-align: right;
+}
+
+.container .vertical-line-container .spot2 .date h5 {
+  color: rgba(2, 119, 2, 0.682);
+}
+
+.container .vertical-line-container .spot2 .date h6 {
+  color: #929090;
+}
+/*# sourceMappingURL=page.css.map */
