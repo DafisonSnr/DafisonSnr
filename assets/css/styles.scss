@@ -1,0 +1,150 @@
+.container-fluid{
+    width:100%;
+    .careers{
+        margin-top: 50px;
+        h3{
+            font-size: 2em;
+            font-weight: bold;
+            text-align: center;
+        }
+        p{
+            font-size:13px;
+            text-align: center;
+        }
+    }
+    .col{
+        img{
+            width:100%;
+        }
+        h5{
+            font-family: 'Buenard';
+            margin-top:15px;
+            text-decoration: underline;
+            text-decoration-color: orangered;
+        }
+        p{
+            text-align: justify;
+            font-size: 16px;
+            line-height: 1.6em;
+            font-family: 'Buenard';
+        }
+    }
+    .link{
+        text-align: center;
+        margin-top: 15px;
+        a{
+            color: #f00;
+            font-weight: bold;
+        }
+    }
+    // privacy-policies starts here
+    section.header{
+        h5{
+            text-align:center;
+            font-weight: bold;
+            margin-bottom: -50px;
+        }
+    }
+    section.body{
+        .container{
+            font-family: 'Buenard';
+            font-size: 16px;
+            line-height: 1.6em;
+            text-align: justify;
+           h6{
+            font-size: 13px;
+           }
+           ol{
+                li{
+                    font-weight: bold;
+                    p{
+                        font-weight: normal;
+                    }
+                }
+            }
+            .secondary-ol{
+                h5{
+                    font-size: 14px;
+                    margin-left: 25px;
+                }
+                ol{
+                    li{
+                        font-weight: normal;
+                    }
+                }
+            }
+            .contact{
+                font-size: 15px;
+                line-height: 1.6em;
+          
+                h6{
+                    font-size: 16px;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+    // terms-conditions
+    section.body{
+        font-family: 'Buenard';
+        font-size: 15px;
+        line-height: 1.6em;
+        text-align: justify;
+        // logistics page styling
+        ul{
+            width: 95%;
+            padding: 0;
+            li{
+                list-style: none;
+                font-weight: bold;
+                font-size: 17px;
+                p{
+                    font-weight: normal
+                }
+            }
+        }
+    }
+    section.ol{
+        margin-top: -150px;
+        font-family: 'Buenard';
+        font-size: 15px;
+        line-height: 1.6em;
+        text-align: justify;
+        li{
+            font-weight: bold;
+            p{
+                font-weight: normal;
+            }
+        }
+    }
+    
+}
+
+
+
+@media(min-width:768px){
+    .container-fluid{
+        width: 80%;
+        margin:  0 auto;
+        .col{
+            display: flex;
+            padding: 20px 0;
+            img.work-img{
+                width:100%;
+                margin-right: 30px;
+            }
+           
+                img.culture-img{
+                    width:100%;
+                    margin-left: 30px;
+                }
+           
+        }
+    }
+}
+@media(min-width: 1200px){
+   .container-fluid{
+    width: 1200px;
+    margin: 0 auto;
+   }
+}

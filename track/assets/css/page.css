@@ -1,0 +1,198 @@
+@media (min-width: 390px) {
+  .container .progress-container {
+    position: relative;
+  }
+  .container .progress-container .progress-bar-container {
+    background-color: #cbcbcb;
+    width: 350px;
+    border-radius: 10px;
+  }
+  .container .progress-container .progress-bar-container .progress-bar {
+    width: 10%;
+    height: 5px;
+    background-color: green;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+  .container .progress-container .circle-indictor {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .container .progress-container .circle-indictor div {
+    position: absolute;
+    top: -7px;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 100%;
+  }
+  .container .progress-container .circle-indictor div:nth-child(1) {
+    background-color: green;
+  }
+  .container .progress-container .circle-indictor div:nth-child(2) {
+    margin-left: 100px;
+    background-color: #ccc;
+  }
+  .container .progress-container .circle-indictor div:nth-child(3) {
+    margin-left: 240px;
+    background-color: #ccc;
+  }
+  .container .progress-container .circle-indictor div:nth-child(4) {
+    margin-left: 340px;
+    background-color: #ccc;
+    width: 35px;
+    height: 35px;
+    top: -18px;
+  }
+  .container .progress-container .circle-indictor div:nth-child(4) i {
+    color: white;
+    font-size: 25px;
+    padding: 5px;
+  }
+  .container .progress-container .airplane {
+    position: absolute;
+    top: -90px;
+    left: 130px;
+  }
+  .container .progress-container .airplane img {
+    width: 100px;
+  }
+  .container .vertical-line-container {
+    position: relative;
+    margin-top: 150px;
+    padding: 0;
+    width: 100%;
+    height: 720px;
+  }
+  .container .vertical-line-container .vertical-dotted-line {
+    position: absolute;
+    top: 0%;
+    left: 5px;
+    width: 5px;
+    margin-top: -110px;
+    height: 900px;
+    border-left: 2px dotted black;
+  }
+  .container .vertical-line-container .history-container {
+    margin-top: 200px;
+  }
+  .container .vertical-line-container .history-container .arrivals {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  .container .vertical-line-container .history-container .arrivals ol li {
+    position: relative;
+    width: 70%;
+    margin: 4px 0 28px 0;
+  }
+  .container .vertical-line-container .history-container .arrivals ol li h6 {
+    margin: 0;
+  }
+  .container .vertical-line-container .history-container .arrivals ol li p {
+    font-size: 13px;
+  }
+  .container .vertical-line-container .history-container .arrivals ol li span {
+    position: absolute;
+    top: 40px;
+    left: 120%;
+    width: 100%;
+    margin-top: -50px;
+  }
+  .container .vertical-line-container .history-container .arrivals svg {
+    position: relative;
+    left: -40px;
+    bottom: -25px;
+    color: green;
+    font-size: 25px;
+  }
+  .container .vertical-line-container .history-container .shipment-created {
+    position: absolute;
+    bottom: -80px;
+    width: 100%;
+  }
+  .container .vertical-line-container .history-container .shipment-created .list-style-2 {
+    position: relative;
+    width: 90%;
+    background-color: #e0e0ef;
+    padding: 7px;
+    border-radius: 20px;
+  }
+  .container .vertical-line-container .history-container .shipment-created p, .container .vertical-line-container .history-container .shipment-created h6 {
+    color: #000;
+  }
+  .container .vertical-line-container .history-container .shipment-created ol.order-list-2 {
+    list-style: none;
+  }
+  .container .vertical-line-container .history-container .shipment-created ol.order-list-2 li {
+    position: relative;
+    width: 70%;
+  }
+  .container .vertical-line-container .history-container .shipment-created ol.order-list-2 li h6 {
+    margin: 0;
+  }
+  .container .vertical-line-container .history-container .shipment-created ol.order-list-2 li p {
+    font-size: 13px;
+  }
+  .container .vertical-line-container .history-container .shipment-created ol.order-list-2 li span.created-span {
+    position: absolute;
+    top: 40px;
+    left: 133%;
+    width: 100%;
+    margin-top: -50px;
+  }
+  .container .vertical-line-container .history-container .shipment-created svg {
+    position: absolute;
+    left: -7px;
+    bottom: 70px;
+    color: green;
+    font-size: 25px;
+  }
+  .container .delivery-status {
+    -webkit-column-count: 1;
+            column-count: 1;
+    -webkit-column-gap: 1px;
+            column-gap: 1px;
+    margin: 30px 0 70px 0;
+  }
+  .container .shipment-facts {
+    position: relative;
+    top: 50%;
+    margin-top: 250px;
+  }
+  .container .shipment-facts h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: rgba(34, 31, 31, 0.87);
+    margin-top: 55px;
+  }
+  .container .shipment-facts h5 {
+    margin-top: 40px;
+    color: #929090;
+  }
+  .container .shipment-facts table tr th, .container .shipment-facts table tr td {
+    font-size: 12px;
+    color: rgba(34, 31, 31, 0.87);
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 100%;
+    margin: 20px auto;
+  }
+  .delivery-status {
+    -webkit-column-count: 3 !important;
+            column-count: 3 !important;
+    -webkit-column-gap: 30px;
+            column-gap: 30px;
+  }
+  .delivery-status h5 {
+    font-size: 15px;
+  }
+  .delivery-status p {
+    color: #929090;
+  }
+}
+/*# sourceMappingURL=page.css.map */

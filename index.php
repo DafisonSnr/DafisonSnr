@@ -12,12 +12,12 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>WELCOME TO STEEL SAFE DELIVERY COMPANY</title>
+  <title>WELCOME TO STEEL SAFE SECURITY COMPANY</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/favicon.ico" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
@@ -32,7 +32,71 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-
+  <style>
+    @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+    
+    /* footer style starts here */
+    footer .footer-container{
+        width: 100%;
+        background-color:#0d237d;
+        
+    }
+    footer .container-fluid{
+        display: block;
+        width: 100%;
+    }
+    footer .container-fluid ul{
+        display: flex;
+        padding: 0;
+        margin: 0;
+        
+    }
+    footer .container-fluid ul li{
+        list-style: none;
+    }
+    footer .container-fluid ul li a{
+        display: block;
+        width: 100%;
+        text-decoration: none;
+        font-weight: bold;
+        color: #fff;
+        padding: 0 10px;
+        font-size: 13px;
+    }
+    footer .container-fluid ul li a:hover{
+        text-decoration: underline;
+    }
+    .dt-copyright{
+        font-weight: bold;
+        color: #fff;
+        padding: 10px 0;
+        margin: -90px 0 20px 0px;
+        font-size: 13px;
+    }
+    .container-fluid .email a{
+        display: inline-block;
+        color: #fff;
+        font-weight: bold;
+        margin: -20px 0 40px 0;
+    }
+    @media only screen and (min-width:768px) {
+        footer .container-fluid{
+            display: flex;
+            width: 100%;
+            margin: 0 auto;
+        }
+        footer .container-fluid .email a{
+            transform: translate(-20%,180%);
+        }
+    }
+    @media only screen and (min-width:1200px) {
+        footer .container-fluid{
+            width: 1200px;
+            margin: 0 auto;
+        }
+    }
+    /* footer styling ends here */
+  </style>
   <!-- Template Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -45,31 +109,35 @@
   ======================================================== -->
 </head>
 
-<body>
-
+<body >
   <!-- ======= Header ======= -->
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
       <a href="index.html" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
-        <img src="assets/img/logo.png" alt="">
         <!-- <h1>STEEL</h1> -->
       </a>
 
       <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
       <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
-      <nav id="navbar" class="navbar">
+      <nav id="navbar" class="navbar fw-bold" style="background-color: #000;">
         <ul>
-          <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="pricing.html">Pricing</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <li><a class="get-a-quote" href="get-a-quote.html">Get a Quote</a></li>
+          <li><a href="index" class="active">Home</a></li>
+          <li><a href="about">About</a></li>
+          <li><a href="network">Network</a></li>
+          <li><a href="career">Careers</a></li>
+          <li><a href="logistics">Security logistics</a></li>
+          <li class="dropdown"><a href="#"><span>Security Services</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+                <ul>
+                  <li><a href="services">List of Services</a></li>
+                  <li><a href="products">Security Product</a></li>
+                </ul>
+              </li>
+          <li><a href="contact">Contact</a></li>
+          <li><a class="get-a-quote" href="get-a-quote">Get a Quote</a></li>
         </ul>
       </nav><!-- .navbar -->
-
     </div>
   </header><!-- End Header -->
   <!-- End Header -->
@@ -81,7 +149,7 @@
         <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
           <h2 data-aos="fade-up">Your Lightning Fast Delivery Partner</h2>
           <p data-aos="fade-up" data-aos-delay="100">
-            Welcome to Steel Safe Security Company Express Ltd. A World of Endless Possibilities</p>
+            Welcome to Stell Safe Security Company Express Ltd. A World of Endless Possibilities</p>
           <form action="#" class="form-search d-flex align-items-stretch mb-3" data-aos="fade-up" data-aos-delay="200">
             <input type="text" class="form-control" id="trkNo" placeholder="Enter Tracking Number">
             <span class="text-danger d-inline" id="trk_error"></span>
@@ -141,8 +209,8 @@
             <div class="icon flex-shrink-0"><i class="fa-solid fa-cart-flatbed"></i></div>
             <div>
               <h4 class="title">SERVICES</h4>
-              <p class="description">Read on for the range of Steel Safe Security Company's line of services</p>
-              <a href="service-details.html" class="readmore stretched-link"><span>Learn More</span><i class="bi bi-arrow-right"></i></a>
+              <p class="description">Read on for the range of Steel Safe Security Company 's line of services</p>
+              <a href="service-details" class="readmore stretched-link"><span>Learn More</span><i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
           <!-- End Service Item -->
@@ -154,7 +222,7 @@
               <p class="description">
                 Cross-border services is just not providing courier services across boundaries. It’s about making use of professional e-commerce
                 </p>
-              <a href="service-details.html" class="readmore stretched-link"><span>Learn More</span><i class="bi bi-arrow-right"></i></a>
+              <a href="service-details" class="readmore stretched-link"><span>Learn More</span><i class="bi bi-arrow-right"></i></a>
             </div>
           </div><!-- End Service Item -->
 
@@ -165,7 +233,7 @@
               <p class="description">
                 For Steel Safe Security Company Ltd, technology forms the essence of all our service packages. We offer single-window frameworks to all e-commerce websites
                 </p>
-              <a href="service-details.html" class="readmore stretched-link"><span>Learn More</span><i class="bi bi-arrow-right"></i></a>
+              <a href="service-details" class="readmore stretched-link"><span>Learn More</span><i class="bi bi-arrow-right"></i></a>
             </div>
           </div><!-- End Service Item -->
 
@@ -235,7 +303,7 @@
               <div class="card-img">
                 <img src="assets/img/storage-service.jpg" alt="" class="img-fluid">
               </div>
-              <h3><a href="service-details.html" class="stretched-link">Multi-Vendor Management</a></h3>
+              <h3><a href="service-details" class="stretched-link">Multi-Vendor Management</a></h3>
               <p>Managing e-tail distribution with multi-vendors can be one of the biggest hurdles to a successful business. It requires all network
                 </p>
             </div>
@@ -246,7 +314,7 @@
               <div class="card-img">
                 <img src="assets/img/logistics-service.jpg" alt="" class="img-fluid">
               </div>
-              <h3><a href="service-details.html" class="stretched-link">Last Mile Delivery</a></h3>
+              <h3><a href="service-details" class="stretched-link">Last Mile Delivery</a></h3>
               <p>
                 Our hard work & consistency is not just limited to getting the parcel delivered, but also delivering the happiness & emotional value
                 </p>
@@ -258,7 +326,7 @@
               <div class="card-img">
                 <img src="assets/img/cargo-service.jpg" alt="" class="img-fluid">
               </div>
-              <h3><a href="service-details.html" class="stretched-link"> Warehousing & E-Fulfilment</a></h3>
+              <h3><a href="service-details" class="stretched-link"> Warehousing & E-Fulfilment</a></h3>
               <p>
                 Steel Safe Security Company Ltd’s ability to assimilate worldwide parcel services with the best technological platforms means the highest level of success.
                 </p>
@@ -270,7 +338,7 @@
               <div class="card-img">
                 <img src="assets/img/trucking-service.jpg" alt="" class="img-fluid">
               </div>
-              <h3><a href="service-details.html" class="stretched-link">Trucking</a></h3>
+              <h3><a href="service-details" class="stretched-link">Trucking</a></h3>
               <p>
                 We Work Seamlessly Together To Fulfill Every Need, Big or Small
                 </p>
@@ -282,7 +350,7 @@
               <div class="card-img">
                 <img src="assets/img/packaging-service.jpg" alt="" class="img-fluid">
               </div>
-              <h3><a href="service-details.html" class="stretched-link">Packaging</a></h3>
+              <h3><a href="service-details" class="stretched-link">Packaging</a></h3>
               <p>We Combine Best Quality with Latest Technology To Ensure Customer Satisfaction.
                 It's our Mission to Deliver Smiles Across Miles We are Steel Safe Security Company Ltd Express.x
               </p>
@@ -294,7 +362,7 @@
               <div class="card-img">
                 <img src="assets/img/warehousing-service.jpg" alt="" class="img-fluid">
               </div>
-              <h3><a href="service-details.html" class="stretched-link">Warehousing</a></h3>
+              <h3><a href="service-details" class="stretched-link">Warehousing</a></h3>
               <p>Growing Your E-Commerce Business Through Smart, Swift & Secure Services
                 </p>
             </div>
@@ -318,7 +386,7 @@
               various geographies. Today, Steel Safe Security Company has a direct presence in 21 countries and a business network 
               in over 240 countries.
             </p>
-            <a class="cta-btn" href="#">Contact Us</a>
+            <a class="cta-btn" href="contact">Contact Us</a>
             </dic>
           </div>
 
@@ -370,7 +438,7 @@
           <div class="col-md-7 order-2 order-md-1">
             <h3>Pause deliveries while you travel</h3>
             <p class="fst-italic">
-              Got big vacation plans as the weather warms? With FedEx Delivery Manager®, you can easily schedule a temporary hold of 
+              Got big vacation plans as the weather warms? With STS Delivery Manager®, you can easily schedule a temporary hold of 
               deliveries for up to 14 days while away.
             </p>
               <a href="#" class="btn btn-primary">FIND OUT HOW</a>
@@ -445,13 +513,10 @@
     <!-- ======= Testimonials Section ======= -->
     <section id="testimonials" class="testimonials">
       <div class="container">
-
         <div class="slides-1 swiper" data-aos="fade-up">
           <div class="swiper-wrapper">
-
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
                 <h3>Raj Vardhan </h3>
                 <div class="stars">
                   <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
@@ -468,7 +533,7 @@
             <div class="swiper-slide">
               <div class="testimonial-item">
                 <!-- <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt=""> -->
-                <h3>Sara Wilsson</h3>
+                <h3>Sara</h3>
                 <div class="stars">
                   <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
@@ -491,38 +556,6 @@
                   <i class="bi bi-quote quote-icon-left"></i>
                   I want to compliment to your excellent service as your entire team always went to great lengths to help me to enhance my business. I have always received quality service at your FC. 
                   xTeam knows just what to do to solve my issues quickly and always come with solution-oriented approach. Such service builds great working relationships.
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                <h3>Matt Brandon</h3>
-                <h4>Freelancer</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                <h3>John Larson</h3>
-                <h4>Entrepreneur</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
               </div>
@@ -652,72 +685,28 @@
    </section>
 
   </main><!-- End #main -->
-
   <!-- ======= Footer ======= -->
-  <footer id="footer" class="footer">
 
-    <div class="container">
-      <div class="row gy-4">
-        <div class="col-lg-5 col-md-12 footer-info">
-          <a href="index.html" class="logo d-flex align-items-center">
-            <span>STEEL-SAFE</span>
-          </a>
-          <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
-          <div class="social-links d-flex mt-4">
-            <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-            <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
-          </div>
+  <footer class="w-100">
+        <div class="footer-container">
+            <div class="container-fluid">
+                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 ul-menu">
+                    <div class="region region-footer">
+                        <section id="block-menu-menu-footer-menu" class="block block-menu clearfix">
+                            <ul class="dt-foot-menu" style="margin-top: -40px"><li class="first leaf active-trail active"><a href="about-us" class="active-trail active">About us</a></li>
+                                <li class="leaf"><a href="careers.html">Careers</a></li>
+                                <li class="leaf"><a href="privacy-policy.html">Privacy Policy</a></li>
+                                <li class="last leaf"><a href="terms-conditions.html">Terms &amp; Conditions</a></li>
+                            </ul>
+                        </section> <!-- /.block -->
+                    </div>
+                    <div class="clearfix"></div>
+                    <p class="dt-copyright">© Copyright Steel Safe Security Company Express Limited. All Rights Reserved</p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 email"> <a class="dt-mail-foot" href="mailto:support@steelsafesecuritycompany.com"><i class="glyphicon glyphicon-envelope"></i> support@steelsafesecuritycompany.com</a> </div>
+            </div>
         </div>
-
-        <div class="col-lg-2 col-6 footer-links">
-          <h4>Links</h4>
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Terms of service</a></li>
-            <li><a href="#">Privacy policy</a></li>
-          </ul>
-        </div>
-
-        <div class="col-lg-2 col-6 footer-links">
-          <h4>Our Services</h4>
-          <ul>
-            <li><a href="#">Web Design</a></li>
-            <li><a href="#">Web Development</a></li>
-            <li><a href="#">Product Management</a></li>
-            <li><a href="#">Marketing</a></li>
-            <li><a href="#">Graphic Design</a></li>
-          </ul>
-        </div>
-
-        <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
-          <h4>Contact Us</h4>
-          <p>
-            A108 Adam Street <br>
-            New York, NY 535022<br>
-            United States <br><br>
-            <strong>Phone:</strong> +1 5589 55488 55<br>
-            <strong>Email:</strong> info@example.com<br>
-          </p>
-
-        </div>
-
-      </div>
-    </div>
-
-    <div class="container mt-4">
-      <div class="copyright">
-        &copy; Copyright <strong><span>SteelSafe</span></strong>. All Rights Reserved
-      </div>
-      
-    </div>
-
   </footer><!-- End Footer -->
-  <!-- End Footer -->
-
   <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <div id="preloader"></div>
@@ -735,6 +724,25 @@
 
   <!-- Tracking JS FILE -->
   <script src="assets/js/traking.js"></script>
+
+  <!-- remove nav background color on scroll -->
+  <script>
+    window.onscroll = function(){
+      removeBackground();
+    }
+    function removeBackground(){
+      var navbar = document.getElementById('navbar');
+      if(
+        document.body.scrollTop > 20 ||
+        document.documentElement.scrollTop >20
+      ){
+        navbar.style.background = "none";
+    
+      }else{
+        navbar.style.background = "black";
+      }
+    }
+  </script>
 
 </body>
 

@@ -1,0 +1,158 @@
+.container-fluid {
+  width: 100%;
+}
+
+.container-fluid .careers {
+  margin-top: 50px;
+}
+
+.container-fluid .careers h3 {
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.container-fluid .careers p {
+  font-size: 13px;
+  text-align: center;
+}
+
+.container-fluid .col img {
+  width: 100%;
+}
+
+.container-fluid .col h5 {
+  font-family: 'Buenard';
+  margin-top: 15px;
+  text-decoration: underline;
+  -webkit-text-decoration-color: orangered;
+          text-decoration-color: orangered;
+}
+
+.container-fluid .col p {
+  text-align: justify;
+  font-size: 16px;
+  line-height: 1.6em;
+  font-family: 'Buenard';
+}
+
+.container-fluid .link {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.container-fluid .link a {
+  color: #f00;
+  font-weight: bold;
+}
+
+.container-fluid section.header h5 {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: -50px;
+}
+
+.container-fluid section.body .container {
+  font-family: 'Buenard';
+  font-size: 16px;
+  line-height: 1.6em;
+  text-align: justify;
+}
+
+.container-fluid section.body .container h6 {
+  font-size: 13px;
+}
+
+.container-fluid section.body .container ol li {
+  font-weight: bold;
+}
+
+.container-fluid section.body .container ol li p {
+  font-weight: normal;
+}
+
+.container-fluid section.body .container .secondary-ol h5 {
+  font-size: 14px;
+  margin-left: 25px;
+}
+
+.container-fluid section.body .container .secondary-ol ol li {
+  font-weight: normal;
+}
+
+.container-fluid section.body .container .contact {
+  font-size: 15px;
+  line-height: 1.6em;
+}
+
+.container-fluid section.body .container .contact h6 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.container-fluid section.body {
+  font-family: 'Buenard';
+  font-size: 15px;
+  line-height: 1.6em;
+  text-align: justify;
+}
+
+.container-fluid section.body ul {
+  width: 95%;
+  padding: 0;
+}
+
+.container-fluid section.body ul li {
+  list-style: none;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.container-fluid section.body ul li p {
+  font-weight: normal;
+}
+
+.container-fluid section.ol {
+  margin-top: -150px;
+  font-family: 'Buenard';
+  font-size: 15px;
+  line-height: 1.6em;
+  text-align: justify;
+}
+
+.container-fluid section.ol li {
+  font-weight: bold;
+}
+
+.container-fluid section.ol li p {
+  font-weight: normal;
+}
+
+@media (min-width: 768px) {
+  .container-fluid {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .container-fluid .col {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 20px 0;
+  }
+  .container-fluid .col img.work-img {
+    width: 100%;
+    margin-right: 30px;
+  }
+  .container-fluid .col img.culture-img {
+    width: 100%;
+    margin-left: 30px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container-fluid {
+    width: 1200px;
+    margin: 0 auto;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

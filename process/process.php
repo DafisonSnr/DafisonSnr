@@ -8,7 +8,7 @@
         $_SESSION['tracking'] = true;
         $_SESSION['tracking'] = $fetch;
         $_SESSION['start'] = time();
-        $_SESSION['expire'] = $_SESSION['start'] + (02*60);
+        $_SESSION['expire'] = $_SESSION['start'] + (30*60);
         header('Content-Type: application/json');
         echo json_encode(array("status" => 200));
 

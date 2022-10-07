@@ -137,9 +137,9 @@ section {
   background-repeat: no-repeat;
 }
 
-.breadcrumbs .page-header:before {
+.breadcrumbs .page-header:after {
   content: "";
-  background-color: rgba(14, 29, 52, 0.8);
+  background-image: url('./img/network_banner.png');
   position: absolute;
   inset: 0;
 }
